@@ -1,0 +1,903 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8658220760179030892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 427178268
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-8620945945518980745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 654641636
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-8069478012292134646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1145577968
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+  resetState: 0
+--- !u!114 &-7944211860856487659
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 0}
+  fromNode: {fileID: -4083289665749300372}
+  useConditions: 0
+  isNegative: 0
+  mute: 0
+  id: 132432103
+--- !u!114 &-7889133540434169226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1162448407
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+  resetState: 0
+--- !u!114 &-7512251999330630256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 835897504
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-6765860135279941849
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 968955072
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-6584100207126418383
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1008524124
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-4083289665749300372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1143322923
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 7404673459552382458}
+  transitions:
+  - {fileID: -7944211860856487659}
+  resetState: 0
+--- !u!114 &-3081978864697843813
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Set State
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 984027574
+  position:
+    serializedVersion: 2
+    x: 25001
+    y: 24992
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &-2808290297794069597
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 741763634
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-1798683794583754298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1184598868
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &-872572129642236398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Stop Crouching
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 140464938
+  position:
+    serializedVersion: 2
+    x: 25127
+    y: 24924
+    width: 180
+    height: 32
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &-83256128157427975
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Start Crouching
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 728554992
+  position:
+    serializedVersion: 2
+    x: 24881
+    y: 24925
+    width: 180
+    height: 32
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e638994223fb56748bcc4f7828e0ea28, type: 3}
+  m_Name: Character States
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 623349458
+  position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  color: 0
+  description: 'In this state we use the Invoker variable from the State Machine
+    so this can be used for any other character if its needed.
+
+
+    Press C to Crouch'
+  parent: {fileID: 0}
+  transitions: []
+  oldSource: {fileID: 0}
+  startNode: {fileID: 0}
+  upNode: {fileID: 0}
+  nodes:
+  - {fileID: -3081978864697843813}
+  - {fileID: 5917412461414086915}
+  - {fileID: -83256128157427975}
+  - {fileID: -872572129642236398}
+  sourceReactions: {fileID: 5144453635110484693, guid: cdddff30b14c54bae8a3f8cb472426d6,
+    type: 3}
+  blackboard:
+    list:
+    - name: crouching
+      type: 3
+--- !u!114 &242449962985203389
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1107845517
+  position:
+    serializedVersion: 2
+    x: 24997
+    y: 24973
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 7248209715109081826}
+  transitions: []
+  resetState: 0
+--- !u!114 &408289768310271764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 764034132
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &1035500684674873793
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1559480263
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+  resetState: 0
+--- !u!114 &1955492165044905366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1554318151
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &2019910146158071384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 164901136
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &2531585996393776076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 493695872
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &3849174913850355625
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1378254020
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &4290598915514040684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: Stop crouch
+  m_EditorClassIdentifier: 
+  toNode: {fileID: -872572129642236398}
+  fromNode: {fileID: 5917412461414086915}
+  useConditions: 1
+  isNegative: 0
+  mute: 0
+  id: 458809728
+--- !u!114 &4713429436275910207
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: Go crouch
+  m_EditorClassIdentifier: 
+  toNode: {fileID: -83256128157427975}
+  fromNode: {fileID: 5917412461414086915}
+  useConditions: 1
+  isNegative: 0
+  mute: 0
+  id: 1332155459
+--- !u!114 &5074001355469787708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 0}
+  fromNode: {fileID: 0}
+  useConditions: 0
+  isNegative: 0
+  mute: 0
+  id: 1598474256
+--- !u!114 &5141861271710274211
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1054023773
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &5401691011177967351
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1770745026
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &5917412461414086915
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4473ce0dfc62c484288654a4fed2edb6, type: 3}
+  m_Name: On Key Down
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 1
+  id: 726590374
+  position:
+    serializedVersion: 2
+    x: 24986
+    y: 24845
+    width: 230
+    height: 35
+  color: 2
+  description: 
+  parent: {fileID: 11400000}
+  transitions:
+  - {fileID: 4713429436275910207}
+  - {fileID: 4290598915514040684}
+--- !u!114 &5986450426224885574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 0}
+  fromNode: {fileID: 0}
+  useConditions: 1
+  isNegative: 0
+  mute: 0
+  id: 396401703
+--- !u!114 &7248209715109081826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e638994223fb56748bcc4f7828e0ea28, type: 3}
+  m_Name: Character Patrol
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1661344802
+  position:
+    serializedVersion: 2
+    x: 24988
+    y: 25105
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  oldSource: {fileID: 0}
+  startNode: {fileID: 242449962985203389}
+  upNode: {fileID: 0}
+  nodes:
+  - {fileID: 242449962985203389}
+  sourceReactions: {fileID: 0}
+  blackboard:
+    list: []
+--- !u!114 &7404673459552382458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e638994223fb56748bcc4f7828e0ea28, type: 3}
+  m_Name: Character Patrol
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 2016118868
+  position:
+    serializedVersion: 2
+    x: 25098.5
+    y: 25129.375
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  oldSource: {fileID: 0}
+  startNode: {fileID: -4083289665749300372}
+  upNode: {fileID: 0}
+  nodes:
+  - {fileID: -4083289665749300372}
+  - {fileID: 0}
+  - {fileID: 0}
+  sourceReactions: {fileID: 0}
+  blackboard:
+    list: []
+--- !u!114 &8214674040995917635
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 867387847
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 7248209715109081826}
+  transitions: []
+--- !u!114 &8217733563162451703
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 0}
+  fromNode: {fileID: 0}
+  useConditions: 1
+  isNegative: 0
+  mute: 0
+  id: 103338441
+--- !u!114 &8234709825073715244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5929b19a1d227741a82972e30423da1, type: 3}
+  m_Name: StateMachine
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 240574012
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 24960
+    width: 230
+    height: 35
+  color: 0
+  description: 
+  parent: {fileID: 0}
+  transitions: []
+--- !u!114 &8332657308609063429
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 0}
+  fromNode: {fileID: 242449962985203389}
+  useConditions: 0
+  isNegative: 0
+  mute: 0
+  id: 921148634

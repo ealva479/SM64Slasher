@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: QuestHUD-Root
+  m_Controller: {fileID: 9100000, guid: 0964c86c85ffa42d5acfdf8bb9921a51, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 65e570ef7631e404d8e1a6e5b955ca97, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 783d0837bbb024f17852b09e926e5bd7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7317777d792d64769a80080200f30460, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 665d1f2ab82634e8da1369e189de25a3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 27a20171d36c045f0a3d68b4bb7b59c8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f987e10122e5f4efbbb7285e31df3893, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4b889821464984ad0adfb8e2235b053a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 422baca2ed2fd41b9a87a86e232ee609, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 400ccce11040543649bd1d312752aec7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ba01c5e2f53a84a9ea37d40527735147, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b8c3b7047ade041ee940992ce4095dff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b5eec27467c844eb0b95711c191d58c3, type: 2}

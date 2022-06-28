@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9777fb8d657a413388f3fea372a8309, type: 3}
+  m_Name: ClimbingHangedClip
+  m_EditorClassIdentifier: 
+  offsetUpward: -1
+  offsetForward: -0.2
+  ignoreCollisions: 0
+  orientation: 0
+  transition:
+    mode: 0
+    speed: 8
+    duration: 1
+  animatorController: {fileID: 22100000, guid: 454a2982bb9a7494c9d024ad984ca34a, type: 2}
+  reachController: {fileID: 22100000, guid: c204c735df2b44593b7f843610d2ae48, type: 2}
+  grabController: {fileID: 22100000, guid: d8780d67c80864f0abe3a531e7475643, type: 2}
+  reachStartDelay: 0.1
+  reachTransition:
+    mode: 1
+    speed: 4
+    duration: 0.4
+  reachEndDelay: 0.2
+  moveForwardSpeed: 0.5
+  moveBackwardSpeed: 0.5
+  inputMovement: 0
+  inputKeyDrop: 304
+  inputKeyTraverse: 32
+  maxTraverseDistance: 2

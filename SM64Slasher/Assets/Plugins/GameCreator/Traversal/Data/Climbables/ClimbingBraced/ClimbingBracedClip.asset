@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9777fb8d657a413388f3fea372a8309, type: 3}
+  m_Name: ClimbingBracedClip
+  m_EditorClassIdentifier: 
+  offsetUpward: -1
+  offsetForward: -0.2
+  ignoreCollisions: 0
+  orientation: 0
+  transition:
+    mode: 0
+    speed: 8
+    duration: 1
+  animatorController: {fileID: 22100000, guid: d97c3c45d85d54d66835e260c865393d, type: 2}
+  reachController: {fileID: 22100000, guid: 98a6e3f325d404ed1bda83e4021c35c7, type: 2}
+  grabController: {fileID: 22100000, guid: 46b0a2bc278124b0997b7de327d8318b, type: 2}
+  reachStartDelay: 0.1
+  reachTransition:
+    mode: 1
+    speed: 4
+    duration: 0.4
+  reachEndDelay: 0.2
+  moveForwardSpeed: 1.4
+  moveBackwardSpeed: 1.4
+  inputMovement: 0
+  inputKeyDrop: 304
+  inputKeyTraverse: 32
+  maxTraverseDistance: 2.1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ladder_Traverse
+  m_Controller: {fileID: 9100000, guid: 0c5f2d225bbba470aba34802c6910f06, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d9feff967dcdf4befa8c786b9514b87a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1435e83c1fb3f44eb9dbb528f5a13fcf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 28e6f6202d5764ea28ccfb424a8047bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bc0aa4b9a96a944c19fc1e62a8671e6c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f8e274be876143ad9e5a965b4220484, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f1c5b1335cd89447296c78d72667430a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 19c7717fb9d20498d81e98275740fbdf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4531e9a36c26b4022b7cd88964f8d3bf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b6c8f56a4cdb7466ab41d03f1b4f55e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3ad4b0f43b51a4450bd15913d8cbc30a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0b115ac39c7874decaddf320174c5a56, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e2f9701e26a8741f488f830857c23809, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f507876945734c22a4d4d4943a81346, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0895ed2c3e63b4eadb0bbd794c2680f2, type: 2}

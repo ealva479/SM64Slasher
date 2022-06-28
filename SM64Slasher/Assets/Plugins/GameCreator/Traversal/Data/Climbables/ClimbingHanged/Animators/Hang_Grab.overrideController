@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hang_Grab
+  m_Controller: {fileID: 9100000, guid: 950cc2021e3544fb09dfd28824db4c98, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1ca870372e8574ec086a924ba250f974, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4b9594a58d6bf4b9fad718dc05ae416d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5b4ffc2f28164aa182a30f9f26363ef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 76f71a2173db84ba4b15023a61a99041, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1591369c722164296848ebf598c927c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 25060df77e48b4d72939826880bfbe0d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 64a62d7882db6495eb97e39052b0c4c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4468dd8a7492940ffbe35581921e3061, type: 2}

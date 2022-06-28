@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6fc1f28238a4adb8d1747178271dc5, type: 3}
+  m_Name: Example-1
+  m_EditorClassIdentifier: 
+  root: {fileID: 114105419741829584}
+  nodes:
+  - {fileID: 114105419741829584}
+  - {fileID: 114270859438059352}
+  - {fileID: 114330585604888366}
+  - {fileID: 114045940501828284}
+  blackboard:
+    list: []
+  position: {x: 1, y: -32}
+  zoom: 1
+--- !u!114 &114045940501828284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 1
+  prefabActionsList: {fileID: 114620694990078674, guid: efd3a24975ef042f28fe9786652e4c43,
+    type: 3}
+  input: {fileID: 114270859438059352}
+  outputs: []
+  mode: 0
+  editorName: 
+  position: {x: 10, y: 68}
+--- !u!114 &114105419741829584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e14954a75ff04471aa9befca86cdb5d, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 0}
+  outputs:
+  - {fileID: 114270859438059352}
+  mode: 0
+  editorName: 
+  position: {x: -50, y: -100}
+--- !u!114 &114270859438059352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ca613e87c245f6996bb5850932f56, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 114105419741829584}
+  outputs:
+  - {fileID: 114330585604888366}
+  - {fileID: 114045940501828284}
+  mode: 0
+  editorName: 
+  position: {x: -100, y: -20}
+  composite: 0
+--- !u!114 &114330585604888366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 114478009186922936, guid: 37ba57b9d2a7b457db2fe51dbcb30178,
+    type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 114492131992921770, guid: 58b19ac6959054b15ba7ea1d1cf8c698,
+    type: 3}
+  input: {fileID: 114270859438059352}
+  outputs: []
+  mode: 0
+  editorName: 
+  position: {x: -210, y: 68}

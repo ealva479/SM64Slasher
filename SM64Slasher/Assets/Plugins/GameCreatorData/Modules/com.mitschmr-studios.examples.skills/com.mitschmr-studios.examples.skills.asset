@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cbd861b156b4342bb925cd2f07da25, type: 3}
+  m_Name: com.mitschmr-studios.examples.skills
+  m_EditorClassIdentifier: 
+  module:
+    moduleID: com.mitschmr-studios.examples.skills
+    version:
+      major: 1
+      minor: 0
+      patch: 4
+    displayName: Skills Examples for Game Creator
+    description: 'Provides the skills for Game Creator examples. This module needs
+      the free mixamo assets from the Assetstore, make sure to follow the documentation. '
+    category: Module
+    dependencies:
+    - moduleID: com.mitschmr-studios.module.skills
+      version:
+        major: 1
+        minor: 1
+        patch: 7
+    - moduleID: com.gamecreator.examples.stats
+      version:
+        major: 1
+        minor: 1
+        patch: 3
+    tags: []
+    authorName: MiTschMR Studios
+    authorMail: support@mitschmr-studios.io
+    authorSite: https://docs.mitschmr-studios.io
+    includesData: 1
+    codePaths:
+    - Assets/Plugins/MiTschMRStudios/SkillsExamples/
+    dataPaths:
+    - Assets/Plugins/MiTschMRStudiosData/Skills/
+    - Assets/Plugins/GameCreatorData/Stats/
+  adminLogin: 1
+  adminOpen: 1

@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d072b01d4c1747fca7b96f6a53ad25c, type: 3}
+  m_Name: Quests
+  m_EditorClassIdentifier: 
+  title:
+    content: 
+    postProcess: 0
+    translationID: 0
+  description:
+    content: 
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 
+  internalName: 
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 1
+  children:
+  - {fileID: 114674995294656434}
+  parent: {fileID: 0}
+  reactions: {fileID: 0}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114025235498648472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 402567946ed9459eb8a5b0c955776f66
+  m_EditorClassIdentifier: 
+  title:
+    content: Examine Dr. Black
+    postProcess: 0
+    translationID: 0
+  description:
+    content: Dr. Black corpse is in the middle of the room and has been left untouched.
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 402567946ed9459eb8a5b0c955776f66
+  internalName: examine-dr-black
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children: []
+  parent: {fileID: 114082004578071952}
+  reactions: {fileID: 3406252968848440478, guid: 3eb481cea52a64af7a9e1066c5eef511,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114082004578071952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 76c4dc98cc8445d6957b4f28c71ff67b
+  m_EditorClassIdentifier: 
+  title:
+    content: Investigate the scene
+    postProcess: 0
+    translationID: 0
+  description:
+    content: Investigate the scene and interrogate the three suspects
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 76c4dc98cc8445d6957b4f28c71ff67b
+  internalName: start-investigation
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children:
+  - {fileID: 114700164890502156}
+  - {fileID: 114549202377082124}
+  - {fileID: 114703024333072266}
+  - {fileID: 114025235498648472}
+  parent: {fileID: 114489884777958684}
+  reactions: {fileID: 6482420464325397895, guid: 9fb68fa7fdac54c5489e62b1edc06dc2,
+    type: 3}
+  type: 1
+  progress: 0
+  progressMaxValue: 4
+--- !u!114 &114100349208120626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: f320f874cf4245dda5b353b740c52e2b
+  m_EditorClassIdentifier: 
+  title:
+    content: Conlude the Investigation
+    postProcess: 0
+    translationID: 0
+  description:
+    content: It's time to draw a conclusion and know who the killer is.
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: f320f874cf4245dda5b353b740c52e2b
+  internalName: conclude-investigation
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children: []
+  parent: {fileID: 114674995294656434}
+  reactions: {fileID: 877668702060872806, guid: 035dff535806c4c01bbbc128932a9f05,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114489884777958684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 674572f58a1444f4bfc4db8d4774c092
+  m_EditorClassIdentifier: 
+  title:
+    content: Talk to Detective Blue
+    postProcess: 0
+    translationID: 0
+  description:
+    content: Talk to Detective Blue to gather more details
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 674572f58a1444f4bfc4db8d4774c092
+  internalName: talk-to-detective-briefing
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children:
+  - {fileID: 114082004578071952}
+  parent: {fileID: 114674995294656434}
+  reactions: {fileID: 445897582301385881, guid: f92a9d92097bf4b2f899003dcdc0e335,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114549202377082124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 0664776b14454670bb0917c3ae22a57e
+  m_EditorClassIdentifier: 
+  title:
+    content: Talk to Reverend Green
+    postProcess: 0
+    translationID: 0
+  description:
+    content: He is a man of religion, whom tend to hide secrets and spill half truths.
+      Could he be hiding something?
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 0664776b14454670bb0917c3ae22a57e
+  internalName: talk-to-reverend-green
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children: []
+  parent: {fileID: 114082004578071952}
+  reactions: {fileID: 67936404554734302, guid: bc5112a254af2431181ece32f573f14a, type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114674995294656434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205ff9d50c90949b98056d0039dff7c6, type: 3}
+  m_Name: 79b0acb3932b41f98d68ad94b479bf21
+  m_EditorClassIdentifier: 
+  title:
+    content: Murder at the table
+    postProcess: 0
+    translationID: 0
+  description:
+    content: You have been summoned to investigate a curious case where Dr. Black,
+      the host of the house has myseriously died.
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 79b0acb3932b41f98d68ad94b479bf21
+  internalName: murder-at-the-table
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children:
+  - {fileID: 114489884777958684}
+  - {fileID: 114100349208120626}
+  parent: {fileID: 11400000}
+  reactions: {fileID: 156206807640134395, guid: 99c9510029f854978817aead1ac30cbe,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+  isTracking: 0
+--- !u!114 &114700164890502156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 2172e86bd51b4bfc81a487b69d6a02c2
+  m_EditorClassIdentifier: 
+  title:
+    content: Talk to Lady Pink
+    postProcess: 0
+    translationID: 0
+  description:
+    content: Lady Pink is Dr. Black's wife and seems shocked by the premature death
+      of her husband. Or is she hiding something?
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 2172e86bd51b4bfc81a487b69d6a02c2
+  internalName: talk-to-lady-pink
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children: []
+  parent: {fileID: 114082004578071952}
+  reactions: {fileID: 5589808553205333687, guid: b44f2c0a0ba5144a3adaae62374f8250,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114703024333072266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 5f92cf0b6e864f15b39154b6d7841fd1
+  m_EditorClassIdentifier: 
+  title:
+    content: Talk to Colonel Red
+    postProcess: 0
+    translationID: 0
+  description:
+    content: Just a shadow of a once proud member of the militia. He is drunk and
+      probably won't remember anything tomorrow. Or is he a great actor?
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 5f92cf0b6e864f15b39154b6d7841fd1
+  internalName: talk-to-colonel-red
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 0
+  children: []
+  parent: {fileID: 114082004578071952}
+  reactions: {fileID: 4360830710098503506, guid: 77b172475acdb45dd99845deef4ea5d8,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1
+--- !u!114 &114789793967114666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
+  m_Name: 5179d50549e34924a475e996ec717e22
+  m_EditorClassIdentifier: 
+  title:
+    content: 
+    postProcess: 0
+    translationID: 0
+  description:
+    content: 
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 0}
+  uniqueID: 5179d50549e34924a475e996ec717e22
+  internalName: talk-to-detective-conclusions
+  status: 0
+  isHidden: 0
+  canBeAbandoned: 1
+  children: []
+  parent: {fileID: 114082004578071952}
+  reactions: {fileID: 5698442080162226005, guid: 87966d5ba32cc4108998fd2c443c90d9,
+    type: 3}
+  type: 0
+  progress: 0
+  progressMaxValue: 1

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9777fb8d657a413388f3fea372a8309, type: 3}
+  m_Name: CoverStandClip
+  m_EditorClassIdentifier: 
+  offsetUpward: 0
+  offsetForward: -0.25
+  ignoreCollisions: 0
+  orientation: 0
+  transition:
+    mode: 0
+    speed: 6
+    duration: 1
+  animatorController: {fileID: 22100000, guid: 970791c765df54a898f772cf6688f049, type: 2}
+  reachController: {fileID: 22100000, guid: e4c50663301c14f03ad61c1ea35a48a0, type: 2}
+  grabController: {fileID: 22100000, guid: 052dde2328b304fdea56f2245d614c9c, type: 2}
+  reachStartDelay: 0.1
+  reachTransition:
+    mode: 0
+    speed: 4
+    duration: 0.4
+  reachEndDelay: 0.1
+  moveForwardSpeed: 1
+  moveBackwardSpeed: 1
+  inputMovement: 0
+  inputKeyDrop: 304
+  inputKeyTraverse: 32
+  maxTraverseDistance: 2

@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9120769152470890624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 7010963945288309211}
+  fromNode: {fileID: 8703376836141873840}
+  useConditions: 1
+  isNegative: 0
+  mute: 1
+  id: 96305159
+--- !u!114 &-8919277671929551327
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: -1824121337710987659}
+  fromNode: {fileID: -7617082213418980005}
+  useConditions: 0
+  isNegative: 0
+  mute: 0
+  id: 1360449959
+--- !u!114 &-7746960279902726816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 6357396664426336634}
+  fromNode: {fileID: -7624170641248511505}
+  useConditions: 0
+  isNegative: 0
+  mute: 0
+  id: 846009628
+--- !u!114 &-7624170641248511505
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4473ce0dfc62c484288654a4fed2edb6, type: 3}
+  m_Name: On Player Exit
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 1335449770
+  position:
+    serializedVersion: 2
+    x: 25300
+    y: 24645
+    width: 230
+    height: 35
+  color: 2
+  description: 
+  parent: {fileID: 11400000}
+  transitions:
+  - {fileID: -7746960279902726816}
+--- !u!114 &-7617082213418980005
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4473ce0dfc62c484288654a4fed2edb6, type: 3}
+  m_Name: On Player Enter
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 317693330
+  position:
+    serializedVersion: 2
+    x: 25046
+    y: 24646
+    width: 230
+    height: 35
+  color: 2
+  description: When player enters inside the Character trigger go to the chase state.
+    You could use other methods based on distance or line of sight.
+  parent: {fileID: 11400000}
+  transitions:
+  - {fileID: -8919277671929551327}
+--- !u!114 &-6406347413422862100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: -923372916867240436}
+  fromNode: {fileID: -7617082213418980005}
+  useConditions: 0
+  isNegative: 0
+  mute: 1
+  id: 575071517
+--- !u!114 &-4835168977492808349
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0f46054d6425e4fa696f5f3b6a359f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toNode: {fileID: 8703376836141873840}
+  fromNode: {fileID: 7010963945288309211}
+  useConditions: 1
+  isNegative: 0
+  mute: 1
+  id: 1299051250
+--- !u!114 &-1824121337710987659
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Chase
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 329839160
+  position:
+    serializedVersion: 2
+    x: 25070
+    y: 24782
+    width: 180
+    height: 32
+  color: 0
+  description: Cancel the patrol state and chase the Player
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &-923372916867240436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Check Loop
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 438069614
+  position:
+    serializedVersion: 2
+    x: 25072
+    y: 24909
+    width: 180
+    height: 32
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e638994223fb56748bcc4f7828e0ea28, type: 3}
+  m_Name: AI
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 578151247
+  position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  color: 0
+  description: Very basic AI that will patrol and chase the Player.
+  parent: {fileID: 0}
+  transitions: []
+  oldSource: {fileID: 0}
+  startNode: {fileID: 7010963945288309211}
+  upNode: {fileID: 0}
+  nodes:
+  - {fileID: 7010963945288309211}
+  - {fileID: -7617082213418980005}
+  - {fileID: -1824121337710987659}
+  - {fileID: -7624170641248511505}
+  - {fileID: 6357396664426336634}
+  sourceReactions: {fileID: 7120420937012357451, guid: c540ac0d1d77343afb56b4e78c3e1cd6,
+    type: 3}
+  blackboard:
+    list: []
+--- !u!114 &450836979287862072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  hasCustomName: 0
+  disableComments: 0
+  transitionMode: 0
+  id: 887884251
+  position:
+    serializedVersion: 2
+    x: 24753
+    y: 25047
+    width: 180
+    height: 32
+  color: 5
+  description: 
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &6357396664426336634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Reset
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 597476080
+  position:
+    serializedVersion: 2
+    x: 25324
+    y: 24724
+    width: 180
+    height: 32
+  color: 0
+  description: Use Set State action instead of a transition otherwise the invoker
+    of the patrol node would be the Invoker from the On Player Exit trigger
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &7010963945288309211
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Patrol
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 871940606
+  position:
+    serializedVersion: 2
+    x: 25326
+    y: 24850
+    width: 180
+    height: 32
+  color: 5
+  description: Move the character to random point from the list
+  parent: {fileID: 11400000}
+  transitions: []
+  resetState: 0
+--- !u!114 &8703376836141873840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f479bb34c5f3014999e6bc299103fe9, type: 3}
+  m_Name: Patrol Loop
+  m_EditorClassIdentifier: 
+  hasCustomName: 1
+  disableComments: 0
+  transitionMode: 0
+  id: 1215430745
+  position:
+    serializedVersion: 2
+    x: 24770
+    y: 24819
+    width: 180
+    height: 32
+  color: 0
+  description: 
+  parent: {fileID: 11400000}
+  transitions:
+  - {fileID: -9120769152470890624}
+  resetState: 0

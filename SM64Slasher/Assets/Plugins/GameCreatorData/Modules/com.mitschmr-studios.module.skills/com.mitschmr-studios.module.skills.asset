@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cbd861b156b4342bb925cd2f07da25, type: 3}
+  m_Name: com.mitschmr-studios.module.skills
+  m_EditorClassIdentifier: 
+  module:
+    moduleID: com.mitschmr-studios.module.skills
+    version:
+      major: 1
+      minor: 1
+      patch: 7
+    displayName: Skills for Game Creator
+    description: Provides the module Skills for Game Creator
+    category: Module
+    dependencies:
+    - moduleID: com.gamecreator.module.stats
+      version:
+        major: 1
+        minor: 1
+        patch: 5
+    tags: []
+    authorName: MiTschMR Studios
+    authorMail: support@mitschmr-studios.io
+    authorSite: https://docs.mitschmr-studios.io
+    includesData: 0
+    codePaths:
+    - Assets/Plugins/MiTschMRStudios/Skills/
+    dataPaths: []
+  adminLogin: 1
+  adminOpen: 1

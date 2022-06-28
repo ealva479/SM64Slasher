@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6fc1f28238a4adb8d1747178271dc5, type: 3}
+  m_Name: EnemyCount
+  m_EditorClassIdentifier: 
+  root: {fileID: 114498525243233462}
+  nodes:
+  - {fileID: 114498525243233462}
+  - {fileID: 114691479745579482}
+  - {fileID: 114646176525811336}
+  - {fileID: 114846055837530064}
+  blackboard:
+    list: []
+  position: {x: 1, y: -52}
+  zoom: 1.1978999
+--- !u!114 &114498525243233462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e14954a75ff04471aa9befca86cdb5d, type: 3}
+  m_Name: Entry
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 0}
+  outputs:
+  - {fileID: 114646176525811336}
+  mode: 0
+  editorName: 
+  position: {x: -50, y: -100}
+--- !u!114 &114646176525811336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ca613e87c245f6996bb5850932f56, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 114498525243233462}
+  outputs:
+  - {fileID: 114691479745579482}
+  - {fileID: 114846055837530064}
+  mode: 0
+  editorName: 
+  position: {x: -100, y: -20}
+  composite: 1
+--- !u!114 &114691479745579482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 1
+  prefabActionsList: {fileID: 114317620507106278, guid: 2a09365dccc774cd89c1d2cd9d215fe4,
+    type: 2}
+  input: {fileID: 114646176525811336}
+  outputs: []
+  mode: 0
+  editorName: Count
+  position: {x: -210, y: 68}
+--- !u!114 &114846055837530064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 1
+  prefabActionsList: {fileID: 114989384154810252, guid: 776748a68e2274462855cad7883f2cc9,
+    type: 2}
+  input: {fileID: 114646176525811336}
+  outputs: []
+  mode: 0
+  editorName: Final Words
+  position: {x: 10, y: 68}

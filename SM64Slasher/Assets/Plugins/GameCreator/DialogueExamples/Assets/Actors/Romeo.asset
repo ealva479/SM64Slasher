@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd23d0f0e7994cad97f61f7cb28794c, type: 3}
+  m_Name: Romeo
+  m_EditorClassIdentifier: 
+  serializedGuid: 5e61970504ad7c4399ac9a0fafa34f1e
+  nameType: 0
+  actorNameConstant:
+    content: Romeo
+    postProcess: 0
+    translationID: 0
+  actorNameVariable:
+    optionIndex: 0
+    value: 
+    global:
+      allowTypesMask: 2
+      name: 
+    local:
+      allowTypesMask: 2
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+      inChildren: 1
+  color: {r: 1, g: 0.8627451, b: 0.75686276, a: 1}
+  actorSprites:
+    data:
+    - name: Point
+      type: 0
+      sprite: {fileID: 21300000, guid: f0f74a8f59a774e40a48fa06d736c308, type: 3}
+      texture: {fileID: 0}
+      prefab: {fileID: 0}
+    - name: Talk
+      type: 0
+      sprite: {fileID: 21300000, guid: ca74d3b973d9a451f9a43466cd4f1b18, type: 3}
+      texture: {fileID: 0}
+      prefab: {fileID: 0}
+    - name: Arms Cross
+      type: 0
+      sprite: {fileID: 21300000, guid: 6dbc6edfe1bc149819043d155cef17c6, type: 3}
+      texture: {fileID: 0}
+      prefab: {fileID: 0}
+  useGibberish: 0
+  gibberishAudio: {fileID: 0}
+  gibberishPitch: 1
+  gibberishVariation: 0.1

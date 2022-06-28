@@ -1,0 +1,553 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7838332824452413469
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.923498836
+  m_EditorClassIdentifier: 
+  uuid: 923498836
+  skillName:
+    content: Mana Recovery Boost
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Boosts the mana recovery for 8 seconds
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: e98acca5c5975664a9e45d89be71001e, type: 3}
+  skillType: 2
+  skillExecutionType: 0
+  castTime: 1
+  executionTime: 8
+  cooldownTime: 15
+  cooldownTimeBetween: 0.5
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 3
+  requiresLevel: 1
+  level: 3
+  reliesOnSkills:
+  - skill: {fileID: 0}
+  assignableToSkillBar: 1
+  maxAmount: 3
+  startAmount: 0
+  conditionsExecutionRequirements: {fileID: 3551568945216315068, guid: c861c23901c998d47b997f0e1c476100,
+    type: 3}
+  actionsExecutionFailed: {fileID: 1962151277415234472, guid: 70b3b537378e0ba4b8f459909a46bc9d,
+    type: 3}
+  actionsOnActivate: {fileID: 1250138957557662814, guid: c2b473ba64470bd4caf84122e45c1ac5,
+    type: 3}
+  actionsOnCast: {fileID: 7248621655724143096, guid: b45ef983dd922cf4bb1dba08d11c2850,
+    type: 3}
+  actionsOnExecute: {fileID: 8704804181998354916, guid: 1ce6f9a025f1bc6418ac25d48901c484,
+    type: 3}
+  actionsOnFinish: {fileID: 3883160193020610984, guid: 477b1566c9e885d4a9098e99384852fb,
+    type: 3}
+  conditionsRequirements: {fileID: 6608344981011104721, guid: f5293a8b67854264887c7c03fe40f707,
+    type: 3}
+  actionsOnReset: {fileID: 7624620816429826934, guid: 28faf838202b4da47a908a2b549e9926,
+    type: 3}
+--- !u!114 &-3989309395931119207
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.1762201780
+  m_EditorClassIdentifier: 
+  uuid: 1762201780
+  skillName:
+    content: Super Jump
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Let's you jump extremely high
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: 8c2516ff69c8c804d9238efbbfd123fd, type: 3}
+  skillType: 1
+  skillExecutionType: 0
+  castTime: 1
+  executionTime: 1
+  cooldownTime: 10
+  cooldownTimeBetween: 0.5
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 1
+  requiresLevel: 1
+  level: 4
+  reliesOnSkills:
+  - skill: {fileID: 11400000, guid: 54d8888ec37a2ec488f925a2cf8fea13, type: 2}
+  assignableToSkillBar: 1
+  maxAmount: 3
+  startAmount: 0
+  conditionsExecutionRequirements: {fileID: 5514617189350944830, guid: 90ee0296e5b9021499a21045ca6722cc,
+    type: 3}
+  actionsExecutionFailed: {fileID: 8385766378991095125, guid: c6c0e9f57a81863478cbe27d411a642b,
+    type: 3}
+  actionsOnActivate: {fileID: 5672858572609729772, guid: 77e2a7dfa937aa24a8cf86716d86d8da,
+    type: 3}
+  actionsOnCast: {fileID: 4773821335997099922, guid: 18ca53ee5de3ded49a43b3e407b15d1b,
+    type: 3}
+  actionsOnExecute: {fileID: 7566060148631371530, guid: f207072494363b341920d3aead974afa,
+    type: 3}
+  actionsOnFinish: {fileID: 7437217221756679310, guid: e4f933d8784d7be43bf5138f58f62556,
+    type: 3}
+  conditionsRequirements: {fileID: 2194484403672451399, guid: cbd68ff82f8c02446980c77e10005520,
+    type: 3}
+  actionsOnReset: {fileID: 5113504607782599717, guid: 242b8c2b2b9e7064bb18d814cd7c7522,
+    type: 3}
+--- !u!114 &-3034580472382614432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.1762201780
+  m_EditorClassIdentifier: 
+  uuid: 189101679
+  skillName:
+    content: Double Jump
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Let's you jump twice
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: c40adfbd8effcbf4682ccdec34c033b9, type: 3}
+  skillType: 1
+  skillExecutionType: 2
+  castTime: 1
+  executionTime: 1
+  cooldownTime: 0
+  cooldownTimeBetween: 0.5
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 1
+  requiresLevel: 0
+  level: 0
+  reliesOnSkills:
+  - skill: {fileID: 0}
+  assignableToSkillBar: 0
+  maxAmount: 3
+  startAmount: 0
+  conditionsExecutionRequirements: {fileID: 9089672996846836463, guid: baf22f17c77e44e4abbe125b4f367b0a,
+    type: 3}
+  actionsExecutionFailed: {fileID: 6783682685070896357, guid: cf5eadc10f012644fa2a2abf101812ba,
+    type: 3}
+  actionsOnActivate: {fileID: 5672858572609729772, guid: caccd881ae9faf34fa3dd1632246af7e,
+    type: 3}
+  actionsOnCast: {fileID: 4773821335997099922, guid: 2a8443414acf3e345a6d0d36ce314c33,
+    type: 3}
+  actionsOnExecute: {fileID: 7566060148631371530, guid: 9ea8a73afbf2a6543aee588ffd5bf9bf,
+    type: 3}
+  actionsOnFinish: {fileID: 7437217221756679310, guid: 781191f91f0ab36488505c4682915dae,
+    type: 3}
+  conditionsRequirements: {fileID: 152499499940874872, guid: f282598a665e3b94ab85cc98d930358c,
+    type: 3}
+  actionsOnReset: {fileID: 101008540962972971, guid: 36f586ee5672fd240aab1fc2b097532b,
+    type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77691d79b7d553c439a4d3fd0d29bd01, type: 3}
+  m_Name: DatabaseSkills
+  m_EditorClassIdentifier: 
+  skillList:
+    skills:
+    - {fileID: 1676962872044007775}
+    - {fileID: -3034580472382614432}
+    - {fileID: -3989309395931119207}
+    - {fileID: 802025204780606361}
+    - {fileID: -7838332824452413469}
+    - {fileID: 4800419740156568339}
+    skillTypes:
+    - id: Self
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: Body
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: Magic
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+  skillsSettings:
+    skillTreeSelection: 0
+    skillTreeUIPrefabAutomatic: {fileID: 1776935227048216, guid: b76055605333dde45b3dcee5a0242c0c,
+      type: 3}
+    skillTreeUIPrefabManual: {fileID: 1776935227048216, guid: 2d25a2cf48b822640886a94ed5817632,
+      type: 3}
+    pauseTimeOnUI: 1
+    dragDropSkills: 1
+    dragDropHotspot: {x: 8, y: 8}
+    levelSelection: 1
+    levelVariable:
+      variableType: 0
+      global:
+        allowTypesMask: 4
+        name: 
+      local:
+        allowTypesMask: 4
+        name: 
+        targetType: 2
+        targetObject: {fileID: 0}
+      list:
+        targetType: 3
+        targetObject: {fileID: 0}
+        select: 1
+        index: 0
+    levelStat: {fileID: 114866688907080766, guid: 0431ef4462ebb4e059a79b2feeb54f7c,
+      type: 2}
+    skillPointsSelection: 1
+    skillPointsVariable:
+      variableType: 0
+      global:
+        allowTypesMask: 4
+        name: SkillPoints
+      local:
+        allowTypesMask: 4
+        name: 
+        targetType: 2
+        targetObject: {fileID: 0}
+      list:
+        targetType: 3
+        targetObject: {fileID: 0}
+        select: 1
+        index: 0
+    skillPointsStat: {fileID: 2203047319307218575, guid: 0431ef4462ebb4e059a79b2feeb54f7c,
+      type: 2}
+--- !u!114 &802025204780606361
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.871125923
+  m_EditorClassIdentifier: 
+  uuid: 871125923
+  skillName:
+    content: Fire Ball
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Instantiates a fire ball
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: 8bd964882d8c36e4e8e671fe7950565b, type: 3}
+  skillType: 2
+  skillExecutionType: 0
+  castTime: 1
+  executionTime: 2.1
+  cooldownTime: 6
+  cooldownTimeBetween: 0.5
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 2
+  requiresLevel: 1
+  level: 3
+  reliesOnSkills:
+  - skill: {fileID: 0}
+  assignableToSkillBar: 1
+  maxAmount: 3
+  startAmount: 0
+  conditionsExecutionRequirements: {fileID: 1217358645570801013, guid: b1ba3227cc953ee48b9d1bad316b930a,
+    type: 3}
+  actionsExecutionFailed: {fileID: 3505168666945995932, guid: 8150446818ad14a4e916f0279b78ff49,
+    type: 3}
+  actionsOnActivate: {fileID: 2854507465678362060, guid: 25fd52632260d4a48afdedd745345a94,
+    type: 3}
+  actionsOnCast: {fileID: 2337713420888597674, guid: 5b6b58054888e7c4e94e3f4bed0201bd,
+    type: 3}
+  actionsOnExecute: {fileID: 6086649938728172631, guid: 63997f09d9d94384193e72c60623024b,
+    type: 3}
+  actionsOnFinish: {fileID: 7681966441966714239, guid: 47bd1ef5250077940bc34a14f2f4218e,
+    type: 3}
+  conditionsRequirements: {fileID: 7449282002274142358, guid: 7b44cfa3205b3414d922e697dad710aa,
+    type: 3}
+  actionsOnReset: {fileID: 387347086254444596, guid: 8734995c3c0ecdc41b7a1a01dea6e37f,
+    type: 3}
+--- !u!114 &1676962872044007775
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.1178403933
+  m_EditorClassIdentifier: 
+  uuid: 1178403933
+  skillName:
+    content: Strong Resolve
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Gives you an iron will that lets you hold out longer and improves your
+      physical abilities
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: 703abe3a8f2fc024da903a2cee70d43b, type: 3}
+  skillType: 0
+  skillExecutionType: 1
+  castTime: 2.8
+  executionTime: 6
+  cooldownTime: 15
+  cooldownTimeBetween: 0.5
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 2
+  requiresLevel: 1
+  level: 2
+  reliesOnSkills:
+  - skill: {fileID: 0}
+  assignableToSkillBar: 1
+  maxAmount: 3
+  startAmount: 0
+  conditionsExecutionRequirements: {fileID: 3051394049364157992, guid: 75f806bf0fc87134bae8b98ba8cdcd5a,
+    type: 3}
+  actionsExecutionFailed: {fileID: 442859889050817026, guid: 2799e319e517f1a4d89795ef426fe0ca,
+    type: 3}
+  actionsOnActivate: {fileID: 3867199974140584757, guid: 62b2d23e900c58e43a42cc300846867e,
+    type: 3}
+  actionsOnCast: {fileID: 1166897200819763615, guid: 53f32b9caf294d4439996c7ed404a597,
+    type: 3}
+  actionsOnExecute: {fileID: 8924939892040835803, guid: f0047572189735b4aab8d5312d1eb7a8,
+    type: 3}
+  actionsOnFinish: {fileID: 1765554328810741274, guid: d5de8674346ec6347884e803e2e9c0ae,
+    type: 3}
+  conditionsRequirements: {fileID: 6949159587727347235, guid: 2cff501d197a9154494adca59f33e2f1,
+    type: 3}
+  actionsOnReset: {fileID: 2268197862737237081, guid: c30e7f595ac7dc04aac67cb1d04190b1,
+    type: 3}
+--- !u!114 &4800419740156568339
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bbe532db417014cb8a50cb774dbf3b, type: 3}
+  m_Name: skill.435473593
+  m_EditorClassIdentifier: 
+  uuid: 435473593
+  skillName:
+    content: Stored skill 1
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Example of a stored skill, does nothing
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: d982a7b4f0b244b6dbc8e1ea0c686218, type: 3}
+  skillType: 0
+  skillExecutionType: 3
+  castTime: 0
+  executionTime: 1
+  cooldownTime: 3
+  cooldownTimeBetween: 1
+  skillState: 0
+  useSkillPoints: 0
+  skillPointsNeeded: 1
+  requiresLevel: 0
+  level: 0
+  reliesOnSkills:
+  - skill: {fileID: 0}
+  assignableToSkillBar: 1
+  maxAmount: 3
+  startAmount: 2
+  conditionsExecutionRequirements: {fileID: 4205523361867258661, guid: 827ce267b7b0d0e49bb07d0640b65f5a,
+    type: 3}
+  actionsExecutionFailed: {fileID: 1568713526478128825, guid: 35c20754d97f9bf47bd00d75396514e7,
+    type: 3}
+  actionsOnActivate: {fileID: 99011773793180086, guid: a896e4cc3cbdab247bbc4fcf6b29fe19,
+    type: 3}
+  actionsOnCast: {fileID: 2157097108136371434, guid: c34d35c68d48ce24abd4c898ee4426bd,
+    type: 3}
+  actionsOnExecute: {fileID: 1208602731545246601, guid: 2c23db59b65d0f94998176477618697c,
+    type: 3}
+  actionsOnFinish: {fileID: 2582289073734696829, guid: 632ed4b6cb045914582d617e829b9d53,
+    type: 3}
+  conditionsRequirements: {fileID: 2362808362319000358, guid: ec6051e1dad06e942a0a96b0ab2af5c8,
+    type: 3}
+  actionsOnReset: {fileID: 4491724195328483289, guid: 87932f28f5902a44cb2ce2908ee00dfc,
+    type: 3}

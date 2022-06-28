@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Balance_Traverse
+  m_Controller: {fileID: 9100000, guid: 0c5f2d225bbba470aba34802c6910f06, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d9feff967dcdf4befa8c786b9514b87a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: da58253698de4477781fb6423a1ea607, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 28e6f6202d5764ea28ccfb424a8047bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4c37b4858e4854335a0aa71d7693a159, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f8e274be876143ad9e5a965b4220484, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 19cb08928822d481096051fca0a46cf6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 19c7717fb9d20498d81e98275740fbdf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 60fe27b29026548a78412bd88a860faa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b6c8f56a4cdb7466ab41d03f1b4f55e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e37a5e91be0cc4be580b2b7c08050c97, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0b115ac39c7874decaddf320174c5a56, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ec72a90038c2c40a7b1c9f291b9febba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f507876945734c22a4d4d4943a81346, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c0d2fb214b9b749968a9bf2f32f6c3ac, type: 2}

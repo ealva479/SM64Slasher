@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ladder_Jump
+  m_Controller: {fileID: 9100000, guid: 950cc2021e3544fb09dfd28824db4c98, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1ca870372e8574ec086a924ba250f974, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 17cd40456da9741999f209704b600b65, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5b4ffc2f28164aa182a30f9f26363ef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 12ee5e2ba672442278a5cbe5dadeb69c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1591369c722164296848ebf598c927c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4eecc721a474f4f4e83844e0834b2cf9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 64a62d7882db6495eb97e39052b0c4c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ee1b904acdbc347878e221dc23ac5601, type: 2}

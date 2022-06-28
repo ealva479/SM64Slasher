@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b823cc71d5f9a7645befd25ff8cba981, type: 3}
+  m_Name: skill.1178403933
+  m_EditorClassIdentifier: 
+  uuid: 1178403933
+  skillName:
+    content: Strong Resolve
+    postProcess: 0
+    translationID: 0
+  skillDescription:
+    content: Gives you an iron will that lets you hold out longer and improves your
+      physical abilities
+    postProcess: 0
+    translationID: 0
+  icon: {fileID: 21300000, guid: 703abe3a8f2fc024da903a2cee70d43b, type: 3}
+  skillType: 0
+  skillExecutionType: 1
+  castTime: 2.8
+  executionTime: 6
+  cooldownTime: 15
+  skillState: 0
+  useSkillPoints: 1
+  skillPointsNeeded: 2
+  requiresLevel: 1
+  level: 2
+  assignableToSkillBar: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Braced_Grab
+  m_Controller: {fileID: 9100000, guid: 950cc2021e3544fb09dfd28824db4c98, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1ca870372e8574ec086a924ba250f974, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 84c005ed9a17344b5b2e681fb3dede98, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5b4ffc2f28164aa182a30f9f26363ef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 45b09389023bb4ae7a8a7b559a06da5f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1591369c722164296848ebf598c927c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 376bd02887f4a48088963e79d07136d8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 64a62d7882db6495eb97e39052b0c4c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1521ef0a995ef418193e6b1f9a35dfb2, type: 2}

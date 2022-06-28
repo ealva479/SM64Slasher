@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd23d0f0e7994cad97f61f7cb28794c, type: 3}
+  m_Name: Juliet
+  m_EditorClassIdentifier: 
+  serializedGuid: 5e61970504ad7c4399ac9a0fafa34f1e
+  nameType: 0
+  actorNameConstant:
+    content: Juliet
+    postProcess: 0
+    translationID: 0
+  actorNameVariable:
+    optionIndex: 0
+    value: 
+    global:
+      allowTypesMask: 2
+      name: 
+    local:
+      allowTypesMask: 2
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+      inChildren: 1
+  color: {r: 0.87591624, g: 0.75686276, b: 1, a: 1}
+  actorSprites:
+    data:
+    - name: Normal
+      type: 0
+      sprite: {fileID: 21300000, guid: 9fc775e550af24940ba764cbba9db1d9, type: 3}
+      texture: {fileID: 0}
+      prefab: {fileID: 0}
+  useGibberish: 0
+  gibberishAudio: {fileID: 0}
+  gibberishPitch: 1.2
+  gibberishVariation: 0.1
