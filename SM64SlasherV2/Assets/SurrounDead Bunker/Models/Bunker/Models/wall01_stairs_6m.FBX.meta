@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 971f2fa2ff89a6b448e1fc4f770d7f87
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: wall01_stairs_6m_roof
+    100004: wall01_stairs_6m_R
+    100006: wall01_stairs_6m_L
+    100008: stairs05_A_COL
+    100010: stairs05_railL
+    100012: stairs05_railL_COL
+    100014: stairs05_railR
+    100016: stairs05_railR_COL
+    400000: //RootNode
+    400002: wall01_stairs_6m_roof
+    400004: wall01_stairs_6m_R
+    400006: wall01_stairs_6m_L
+    400008: stairs05_A_COL
+    400010: stairs05_railL
+    400012: stairs05_railL_COL
+    400014: stairs05_railR
+    400016: stairs05_railR_COL
+    2100000: wall55
+    2300000: //RootNode
+    2300002: wall01_stairs_6m_roof
+    2300004: wall01_stairs_6m_R
+    2300006: wall01_stairs_6m_L
+    2300008: stairs05_A_COL
+    2300010: stairs05_railL
+    2300012: stairs05_railL_COL
+    2300014: stairs05_railR
+    2300016: stairs05_railR_COL
+    3300000: //RootNode
+    3300002: wall01_stairs_6m_roof
+    3300004: wall01_stairs_6m_R
+    3300006: wall01_stairs_6m_L
+    3300008: stairs05_A_COL
+    3300010: stairs05_railL
+    3300012: stairs05_railL_COL
+    3300014: stairs05_railR
+    3300016: stairs05_railR_COL
+    4300000: wall01_stairs_6m
+    4300002: wall01_stairs_6m_roof
+    4300004: wall01_stairs_6m_L
+    4300006: wall01_stairs_6m_R
+    4300008: stairs05_A
+    4300010: stairs05_railR
+    4300012: stairs05_railR_COL
+    4300014: stairs05_railL
+    4300016: stairs05_railL_COL
+    4300018: stairs05_A_COL
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor16
+    second: {fileID: 2100000, guid: abef03272118fb341b40d95cfe3dc317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs05
+    second: {fileID: 2100000, guid: 489b7641ca0139c429f9aac7b3c50eb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall55
+    second: {fileID: 2100000, guid: d6ae4abb7d951bb408d346adf1519022, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

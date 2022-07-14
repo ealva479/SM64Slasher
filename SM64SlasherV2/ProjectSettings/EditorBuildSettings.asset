@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Plugins/GameCreator/Examples/Scenes/Example-Intro.unity
+    guid: 8997031d9d48747c99f486950d712fbc
+  - enabled: 1
+    path: Assets/Plugins/GameCreator/Examples/Scenes/Example-Hub.unity
+    guid: d2386a5363a1b463391c5a1932e29bc5
+  - enabled: 1
+    path: Assets/Plugins/GameCreator/Examples/Scenes/Example-1.unity
+    guid: b66b3da9c1cbc4083b45c8233468f872
+  - enabled: 1
+    path: Assets/Plugins/GameCreator/Examples/Scenes/Example-2.unity
+    guid: 04623eb03fc804386b25c20efcc08eb5
+  - enabled: 1
+    path: Assets/Plugins/GameCreator/Examples/Scenes/Example-3.unity
+    guid: 049c31a0f8082406eb0a64934aa5f3b4
+  m_configObjects: {}

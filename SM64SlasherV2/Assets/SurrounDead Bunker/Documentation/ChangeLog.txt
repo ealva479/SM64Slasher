@@ -1,0 +1,36 @@
+➤UPDATE v1.3.1 ⬆️
+✓ Changes:
+-added support for Unity 2020.3.36 LTS
+
+➤UPDATE v1.3.0 🌱
+✅ New: 26 new assets
+- added Hydroponics Room to Bunker Scene
+- added 8x Hydroponics assets
+- added Lettuce plant with 4 growth stages
+- added 11x lamps
+- added Storage bin
+- added Industrial Fan
+- added 6x textures
+✓ Changes:
+- updated Bunker Scene and Assets Overview Scene with the new assets
+
+➤UPDATE v1.2.0 🩹
+✅ New: 29 new assets
+- added Infirmery Room to Bunker Scene
+- added 12x Infirmery Props: hospital screens, IV stands, trolley, sink, water dispenser, bucket, first aid cabinet, bed
+- added 13x Medical Items: first-aid kit, gauze bandage, pill bottles, pill box, rubbing alcohol, blister pack,  syringe, vial
+- added 4x crates (covered with tarp)
+- added 8x textures
+✓ Changes:
+- updated Bunker Scene and Assets Overview Scene with the new assets
+
+➤UPDATE v1.1.0 ⚡
+✅ New: 47 new assets
+- added Generator Room to Bunker Scene
+- added 3x Industrial Props: generator,boilers
+- added 29x modular metal platform assets
+- added 15x crates (normal and broken)
+- added 8x textures
+✓ Changes:
+- updated Bunker Scene and Assets Overview Scene with the new assets
+
