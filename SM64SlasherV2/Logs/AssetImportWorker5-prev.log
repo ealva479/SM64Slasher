@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1826; Version 2009; 64bit' Language: 'en' Physical Memory: 10126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Documentos/GitHub/SM64SlasherV2/SM64SlasherV2
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55106
+Successfully changed project path to: D:/Documentos/GitHub/SM64SlasherV2/SM64SlasherV2
+D:/Documentos/GitHub/SM64SlasherV2/SM64SlasherV2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 315.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documentos/GitHub/SM64SlasherV2/SM64SlasherV2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     5063 MB
+    Driver:   30.0.13020.4
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002924 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 332.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1976ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (333ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011530 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Documentos\GitHub\SM64SlasherV2\SM64SlasherV2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Documentos\GitHub\SM64SlasherV2\SM64SlasherV2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 350.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11151ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (10391ms)
+			LoadAssemblies (8525ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1032ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (350ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6797 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.1 MB.
+System memory in use after: 235.5 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 7211.
+Total: 12.793800 ms (FindLiveObjects: 0.680700 ms CreateObjectMapping: 0.293600 ms MarkObjects: 11.677600 ms  DeleteObjects: 0.139400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BOXOPHOBIC
+  artifactKey: Guid(c1dcadb5ed13a7f42a6a9d0d5c1b24dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC using Guid(c1dcadb5ed13a7f42a6a9d0d5c1b24dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff852b625fe050f89b196bdc65d1393c') in 0.039407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/SurrounDead
+  artifactKey: Guid(a1a480bf5f838744999836f4a27f2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurrounDead using Guid(a1a480bf5f838744999836f4a27f2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf57c1d8c4b67401810438a165764a4') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/PolygonStarter
+  artifactKey: Guid(dab10050e9d5432458b948980104902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter using Guid(dab10050e9d5432458b948980104902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6907d64786d1657e66e991a4974d48') in 0.009377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/Prefabs/SubPrefabs/DefaultDialogueSkinChoice.prefab
+  artifactKey: Guid(c90a10eab908c42559c00b27d34fd8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/Prefabs/SubPrefabs/DefaultDialogueSkinChoice.prefab using Guid(c90a10eab908c42559c00b27d34fd8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f919f70633423b9d73c751c311a684') in 0.138082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/SurrounDead Bunker
+  artifactKey: Guid(aee8d1f352d83ab409716a320e0d57f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurrounDead Bunker using Guid(aee8d1f352d83ab409716a320e0d57f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9d7a6bdc39436d32c8fa437ce6fed1') in 0.010106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Gizmos
+  artifactKey: Guid(7d34a5288c56f444faf20dbb497f1967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos using Guid(7d34a5288c56f444faf20dbb497f1967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbabb1f0cc2c2c9fbd754583502121a') in 0.008823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Plugins/GameCreator/DialogueExamples/Scenes/DialogueExample.unity
+  artifactKey: Guid(7b773104dcb534a7b8999583a5af2a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/DialogueExamples/Scenes/DialogueExample.unity using Guid(7b773104dcb534a7b8999583a5af2a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e70b125d6475acf694bb1b8531aadf') in 0.009094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(43d48306d4bc45746bba78f787a3f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(43d48306d4bc45746bba78f787a3f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87e5dade500e5e07307a72adeedb36') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Aura 2
+  artifactKey: Guid(ec5ac112ecfac644b92c120fd4e04b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aura 2 using Guid(ec5ac112ecfac644b92c120fd4e04b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e0c58398a341c4201629d8e489fd99') in 0.009680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4ad8568ff57e1d84eb6093fb0ea31f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4ad8568ff57e1d84eb6093fb0ea31f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c7fcf69a14736d74a3ac26c5655072') in 0.009700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/Prefabs/SubPrefabs
+  artifactKey: Guid(74c9cfd9e0516485ab69a9ce63307975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/Prefabs/SubPrefabs using Guid(74c9cfd9e0516485ab69a9ce63307975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf3f549b8371a537f1a308b86f0719d') in 0.022199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Ninjutsu Games
+  artifactKey: Guid(295a0a20d1b207c4e8fe7252585a9a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninjutsu Games using Guid(295a0a20d1b207c4e8fe7252585a9a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f66489033391b6ffd48863fef8b24f') in 0.008422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/ScriptableObjects/DatabaseDialogue.cs
+  artifactKey: Guid(488f3e5269e8c4fc39cc7a40c6cc8dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/ScriptableObjects/DatabaseDialogue.cs using Guid(488f3e5269e8c4fc39cc7a40c6cc8dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e13d0230bbfc1fbf9ada9c8c99b1ff') in 0.073958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/Prefabs
+  artifactKey: Guid(a0473d76591d846afbeeb511a2a14d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/Prefabs using Guid(a0473d76591d846afbeeb511a2a14d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77537317be41bef7e0ee7a6fda122c2c') in 0.027790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/PolygonPrototype
+  artifactKey: Guid(980bb0dfd1dc8f64f9c12b59fd01034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPrototype using Guid(980bb0dfd1dc8f64f9c12b59fd01034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085d11eb2751f5ca69945e9dd306ab4e') in 0.009337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(a2e90078086f88241936480174d44922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(a2e90078086f88241936480174d44922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de56df7c760eb00214b153d82586046') in 0.008612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.993941 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/Resources/GameCreator/DefaultDialogueSkin.prefab
+  artifactKey: Guid(d4a6cf6eb009e4feb80178875f6bc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/Resources/GameCreator/DefaultDialogueSkin.prefab using Guid(d4a6cf6eb009e4feb80178875f6bc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408480ccdb4c027bbdf4972e0d7a82a7') in 0.034101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.300894 seconds.
+  path: Assets/Plugins/GameCreator/Dialogue/Resources/GameCreator/DefaultGibberish.mp3
+  artifactKey: Guid(82bdf642a9cb647d4b139fd12f72d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Dialogue/Resources/GameCreator/DefaultGibberish.mp3 using Guid(82bdf642a9cb647d4b139fd12f72d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d233d04c714da742ad3d0be7d26d29') in 0.107177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 509.773563 seconds.
+  path: Assets/Plugins/GameCreator/Characters
+  artifactKey: Guid(70f40aa18e856ab469736b0d82ab298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Characters using Guid(70f40aa18e856ab469736b0d82ab298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817c4af7341fbdd65448e00f595653c') in 0.010932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.884130 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64af7e77b657ddc70f9badb07e60f56d') in 0.010889 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
